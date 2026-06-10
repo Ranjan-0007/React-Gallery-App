@@ -1,29 +1,29 @@
 ﻿# React Gallery App
 
-A modern photo gallery built with React, Vite, Tailwind CSS, and Axios. This app fetches images from the Picsum Photos API and displays them as responsive cards with pagination controls.
+A polished photo gallery built with React, Vite, Tailwind CSS, and Axios. This project displays fully responsive image cards fetched from the Picsum Photos API and includes controlled pagination for easy browsing.
 
-![Gallery Preview](./public/readme-sample.svg)
+![Gallery Preview](./public/screenshots/screenshot-2.png)
 
-## Project summary
+## Project overview
 
-This gallery application demonstrates how to build a clean, responsive image browser using:
+This gallery app is designed to showcase a modern React project with:
 
-- React for component-based UI
-- Vite for fast development and build performance
-- Tailwind CSS for utility-first styling
-- Axios to fetch data from an external API
+- A clean responsive card grid
+- Data fetched from the Picsum Photos API
+- Prev / Next pagination buttons with fixed bottom controls
+- Clickable image cards that open full-size photo sources
+- Styled layout using Tailwind CSS and utility classes
 
 ## Features
 
-- Responsive grid gallery layout
-- Fetches images from the Picsum Photos API
-- Prev / Next pagination controls
-- Clickable cards that open image sources in a new tab
-- Fixed bottom navigation controls
-- Lightweight Tailwind styling with clean spacing and hover effects
-- Component-based structure for easier reuse and maintenance
+- Responsive grid layout for image cards
+- Dynamic API fetching with Axios
+- Reusable React component structure
+- Bottom navigation controls that stay visible
+- Hover effects and smooth transitions
+- Easy Vite development and build setup
 
-## Tech stack
+## Technologies used
 
 - React
 - Vite
@@ -37,48 +37,52 @@ This gallery application demonstrates how to build a clean, responsive image bro
 npm install
 ```
 
-## Running locally
+## Run locally
 
 ```bash
 npm run dev
 ```
 
-Open the URL shown in the terminal to view the gallery.
+Open the URL shown in the terminal to preview the gallery.
 
-## Build for production
+## Build
 
 ```bash
 npm run build
 ```
 
-## GitHub repo setup
+## Screenshots
 
-Use the following commands to publish this project to GitHub:
+The screenshot section below is ready for your attached preview images. Add the actual screenshot files to `public/screenshots/` and keep the file names in README as shown.
+
+![Gallery Screenshot 1](./public/screenshots/screenshot-1.png)
+![Gallery Screenshot 2](./public/screenshots/screenshot-2.png)
+
+## GitHub upload
+
+1. Create a GitHub repository named `React-Gallery-App`.
+2. From your project folder, run:
 
 ```bash
 git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/<your-username>/react-gallery-app.git
+git remote add origin https://github.com/Ranjan-0007/React-Gallery-App.git
 git push -u origin main
 ```
 
-If your repository already exists remotely:
+3. If your repo already exists remotely, run:
 
 ```bash
 git add .
-git commit -m "Update README and gallery app"
+git commit -m "Update README and gallery preview"
 git push
 ```
 
-## Suggested repository details
+## Helpful notes
 
-- **Repository name:** `react-gallery-app`
-- **Description:** `A React + Vite photo gallery that fetches images from Picsum, displays responsive cards, and supports pagination.`
+- The preview image shown above is stored at `public/readme-sample.svg`.
+- Place photo screenshot files in `public/screenshots/` for README preview.
+- The app uses Tailwind CSS for styling and Axios to load images from Picsum.
 
-## Notes
-
-- The sample preview image shown above is included at `public/readme-sample.svg`.
-- The gallery app is designed to be easy to extend with additional API filters, image detail pages, or search functionality.
-- Tailwind CSS and Vite make this app simple to style and deploy.
