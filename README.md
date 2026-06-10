@@ -56,7 +56,6 @@ npm run build
 The screenshot section below is ready for your attached preview images. Add the actual screenshot files to `public/screenshots/` and keep the file names in README as shown.
 
 ![Gallery Screenshot 1](./public/screenshots/screenshot-1.png)
-![Gallery Screenshot 2](./public/screenshots/screenshot-2.png)
 
 ## GitHub upload
 
